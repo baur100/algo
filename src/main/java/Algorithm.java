@@ -79,10 +79,10 @@ public class Algorithm {
     }
 
     private static int getReminder(int a, int b) {
-        boolean cond = true;
         if(a<b){
             return a;
         }
+        boolean cond = true;
         while (cond){
             a=a-b;
             if(a<b){
